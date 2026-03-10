@@ -1,71 +1,21 @@
-@charset "ISO-8859-1";
-
-
-/* form styling */
-
-
-#wrapper {
-	width: 60%;
-	margin-left:4%;
+label {
+margin-right: .3em;
+width: 6.3em;
+display: inline-block;
+text-align: right;
 }
 
-div#formcol1 {
-	
-	float:left;	
-	width: 100%;
+#formcol1 li {
+list-style: none;
 }
 
-div#formcol1 label {
-	float:left;
-	width:8.3em;
-	text-align:left;
-	display:block;
-	padding-right:.3em;	
-	background:#E0E0DD;
-	clear:right;
-	}
-	
-
-div#formcol1 ul li {
-	list-style-type:none;
-	margin-left:-2em;
-	margin-bottom:.4em;
-	}
-
-	
-div#formcol1 input {
-	
-	margin-left:1.5em;
-	text-align:left;
-	display:block;
-	clear:right;
-	background-color:#F4F4F4;
-	}
-
-
-/* div for radio buttons and check boxes */
-
-#multchoice {
-	clear:left;
-	margin-left:1%;	
+#formcol1 input.reqfield {
+background:#FF9;
 }
 
-#multchoice input, #multchoice span {
-	float:left;
+select:focus,
+input:focus,
+label[for]:focus {
+color:#FFF;
+background-color:#BB3D2F;
 }
-
-#multchoice span {	
-	margin: 0 .3em;
-}
-
-.submit-button {
-	margin:2em 0;
-	float:right;
-	width:70%;
-}
-
-
-		
-
-/* end of form css */
-	
